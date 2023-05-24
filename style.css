@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+
+.hide {
+    display: none;
+}
+
+.parent {
+    background-color: red;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 8px;
+    padding-top: 1px;
+}
+
+.parent button {
+    border: none;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 5px;
+    margin-right: 5px;
+    line-height: 11px;
+    width: 15px;
+    height: 15px;
+}
+
+.child {
+    background-color: red;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.child:first-of-type {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-bottom: 0;
+}
+
+.child:last-of-type {
+    padding-top: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+.p_btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
